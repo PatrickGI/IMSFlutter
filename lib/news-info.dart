@@ -10,7 +10,6 @@ String _imageurl(String path) {
   } 
 
   String _datetime(dynamic news){
-    // THIS POW POW METHOD IS FOR THE MAIN ARTICLE POW PAGE
   DateTime tstamp = DateTime.parse(news['date_added']);
   return DateFormat('EEEE, MMMM d y - K.ma').format(tstamp);
   }
