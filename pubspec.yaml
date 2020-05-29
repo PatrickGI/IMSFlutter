@@ -1,0 +1,27 @@
+name: practice
+description: >
+  Sample app from "Building Layouts", https://flutter.io/docs/development/ui/layout.
+version: 1.0.0
+
+environment:
+  sdk: '>=2.0.0-dev.68.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  http: ^0.12.1
+  carousel_slider: ^2.1.0
+  contactus: ^1.1.4
+  material_design_icons_flutter: ^4.0.5245
+  intl: ^0.15.7 
+  toggle_switch: ^0.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/companylogo.png
